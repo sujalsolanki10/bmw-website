@@ -1,0 +1,231 @@
+@media screen and (min-width:320px) and (max-width:767px) {
+
+    .header {
+        height: 7vh;
+        padding-inline: 10vw;
+
+
+    }
+
+    nav ul {
+        font-size: 10px;
+        gap: 10px;
+    }
+
+    .logo {
+        height: 5vh;
+    }
+
+    .hr {
+        width: 80vw;
+    }
+
+
+    /* ----- sec 11----- */
+    .sec11 {
+        position: relative;
+    }
+
+    .mseriesfonts {
+        display: none;
+    }
+
+    .select1 {
+        display: inline-block;
+        height: 5vh;
+        width: 100vw;
+        /* margin-inline: -10vw; */
+        background-color: #262626;
+        color: white;
+        border: none;
+        z-index: 2;
+        font-size: 16px;
+        position: sticky;
+        top: 0;
+    }
+
+
+    /* <!-- ----- sec 22----- --> */
+
+    .sec22 {
+        padding-inline: 4vw;
+    }
+
+    .childsec {
+        flex-direction: column;
+    }
+
+    .childsec1 {
+        flex-direction: column;
+    }
+
+    .msec22 {
+
+        /* height: 43vh; */
+        height: auto;
+        width: 92vw;
+        /* background-color: tomato; */
+        margin-bottom: 3vh;
+        padding-inline: 0;
+
+    }
+
+    .csec22 {
+        /* height: 23vh; */
+        height: 170px;
+        width: 92vw;
+        /* border: 1px solid black; */
+    }
+
+    .carimg {
+        /* height: 18vh;
+        width: 65vw; */
+        height: 125px;
+        width: 240px;
+    }
+
+    #Rcarimg {
+        /* width: 70vw; */
+        width: 270px;
+    }
+
+    #Rcarimg2 {
+        height: 130px;
+        width: 265px;
+    }
+
+    .carsfont2 {
+        font-size: 22px;
+        padding-bottom: 2vh;
+        padding-inline: 3vw;
+    }
+
+    .carsfont3 {
+        font-size: 14px;
+        padding-bottom: 2vh;
+        padding-inline: 3vw;
+
+    }
+
+    .carsfont4 {
+        font-size: 18px;
+        padding-bottom: 2vh;
+        padding-inline: 3vw;
+
+
+    }
+
+    .batteryicon {
+        font-size: 45px;
+    }
+
+    .modellogo {
+        height: 20px;
+        width: 40px;
+        padding-left: 3vw;
+    }
+
+    .modellogo2 {
+        height: 20px;
+        width: 50px;
+        padding-left: 3vw;
+    }
+
+    .newlogo {
+        height: 20px;
+        width: 45px;
+    }
+
+    /* <!-- ----- sec 33----- --> */
+
+    .sec33 {
+        padding-inline: 4vw;
+    }
+
+    /* <!-- ----- sec 44----- --> */
+
+    .sec44 {
+        padding-inline: 4vw;
+    }
+
+    /* <!-- ----- sec 55----- --> */
+
+    .sec55 {
+        padding-inline: 4vw;
+    }
+
+    /* <!-- ----- sec 66----- --> */
+
+    .sec66 {
+        padding-inline: 4vw;
+    }
+
+    /* <!-- ----- sec 77----- --> */
+
+    .sec77 {
+        padding-inline: 4vw;
+    }
+
+    /* <!-- ----- sec 88----- --> */
+
+    .sec88 {
+        padding-inline: 4vw;
+    }
+
+    /* <!-- ----- sec 99----- --> */
+
+    .sec99 {
+        padding-inline: 4vw;
+    }
+
+
+
+    /* -----footer---- */
+
+    .Fsec9 {
+        display: none;
+    }
+
+    .hr999 {
+        display: none;
+    }
+
+
+    .rsec1 {
+        height: 70vh;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .box11 {
+        height: 100vh;
+        width: 90vw;
+        /* border: 1px solid black; */
+    }
+
+    .boxicons1 {
+        gap: 15px;
+    }
+
+    .boxh22 {
+        font-size: 26px;
+        /* border: 1px solid black; */
+        width: 90vw;
+        text-align: center;
+        margin-top: -5vh;
+
+    }
+
+    .Rhr {
+        bottom: 3vh;
+    }
+
+    .Rhr2 {
+        display: inline-block;
+        height: 6vh;
+        padding-inline: 10vw;
+        font-size: 16px;
+        text-align: center;
+
+    }
+}

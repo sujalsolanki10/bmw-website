@@ -1,0 +1,958 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+.header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 16vh;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    color: #666666;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+ul li:hover {
+    color: black;
+}
+
+.logo {
+    height: 7.5vh;
+}
+
+.hr {
+    width: 84vw;
+    height: 0vh;
+}
+
+/* ------sec 11------ */
+
+.sec11 {
+    margin-top: 70px;
+    padding-inline: 10vw;
+}
+
+.childsec {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+}
+
+.sec11P {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #262626;
+    margin-bottom: 3vh;
+}
+
+.sec11P2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #262626;
+    margin-bottom: 5vh;
+}
+
+.mseriesfonts {
+    display: flex;
+    gap: 10px;
+    height: 8vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding-left: 9vw;
+    backdrop-filter: blur(8px);
+    z-index: 1;
+    border-bottom: 0.5px solid;
+    text-align: center;
+
+}
+
+.seriesfonts {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #666666;
+    cursor: pointer;
+    /* padding-bottom: 3vh; */
+    padding: 2vh;
+
+}
+
+.seriesfonts:hover {
+    border-bottom: 4px solid black;
+
+}
+
+.anchor {
+    text-decoration: none;
+    color: #666666;
+    padding-bottom: 16px;
+
+}
+
+.anchor:hover {
+    color: black;
+    
+} 
+
+
+.select1 {
+    display: none;
+}
+
+
+
+/* -----sec 22------ */
+
+.sec22 {
+    /* border-top: 1px solid #666666; */
+    padding-inline: 10vw;
+
+}
+
+.carsfont {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.msec22 {
+    height: 40vh;
+    width: 22vw;
+    /* border: 1px solid black; */
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    padding-inline: 1vw;
+    cursor: pointer;
+
+}
+
+.csec22 {
+    height: 23vh;
+    width: 22vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+
+
+.batteryicon {
+    font-size: 50px;
+    color: #1c69d4;
+    position: absolute;
+    top: 0;
+    left: 1vw;
+}
+
+.newlogo {
+    height: 3vh;
+    width: 3.5vw;
+    position: absolute;
+    top: 1.5vh;
+    right: 0;
+}
+
+.carimg {
+    height: 15vh;
+    width: 15vw;
+    transition: 0.4s;
+}
+
+#Rcarimg{
+
+    width: 16vw;
+}
+
+.msec22:hover .carimg {
+    transform: scale(1.2);
+}
+
+.modellogo {
+    height: 3vh;
+    width: 3vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.modellogo2 {
+    height: 3vh;
+    width: 3.5vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.carsfont2 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    padding-bottom: 1vh;
+}
+
+.carsfont3 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #666666;
+    letter-spacing: 1px;
+    padding-bottom: 1vh;
+}
+
+.carsfont4 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #262626;
+    padding-bottom: 1vh;
+}
+
+/* ------sec 33---- */
+
+
+.sec33 {
+    padding-inline: 10vw;
+    margin-top: 30px;
+
+}
+
+
+/* -----sec 44----- */
+
+
+
+.sec44 {
+    padding-inline: 10vw;
+    margin-top: 30px;
+
+}
+
+/* -----sec 55----- */
+
+
+
+.sec55 {
+    padding-inline: 10vw;
+    margin-top: 30px;
+
+}
+
+
+
+/* -----sec 66----- */
+
+
+
+.sec66 {
+    padding-inline: 10vw;
+    margin-top: 30px;
+
+}
+
+
+
+
+
+/* -----sec 77----- */
+
+
+
+.sec77 {
+    padding-inline: 10vw;
+    margin-top: 30px;
+
+}
+
+
+.childsec1 {
+    display: flex;
+    justify-content: start;
+    gap: 3.5vw;
+    margin-bottom: 5vh;
+}
+
+
+
+/* -----sec 88----- */
+
+
+
+.sec88 {
+    padding-inline: 10vw;
+    margin-top: 30px;
+
+}
+
+
+
+
+/* -----sec 99----- */
+
+
+
+.sec99 {
+    padding-inline: 10vw;
+    margin-top: 30px;
+
+}
+
+
+
+/* --------------------------------------------------- */
+
+.sec1 {
+    display: none;
+
+}
+
+.sec2 {
+    display: none;
+}
+
+.sec3 {
+    display: none;
+}
+
+.sec4 {
+    display: none;
+}
+
+.sec5 {
+    display: none;
+}
+
+.sec6 {
+    display: none;
+}
+
+.sec7 {
+    display: none;
+}
+
+.sec8 {
+    display: none;
+}
+
+.sec9 {
+    display: none;
+}
+
+.sec10 {
+    display: none;
+}
+
+.jsec11 {
+    display: none;
+}
+
+.jsec12 {
+    display: none;
+}
+
+.jsec13 {
+    display: none;
+}
+
+.jsec14 {
+    display: none;
+}
+
+.jsec15 {
+    display: none;
+}
+
+.jsec16 {
+    display: none;
+}
+
+.jsec17 {
+    display: none;
+}
+
+.jsec18 {
+    display: none;
+}
+
+.jsec19 {
+    display: none;
+}
+
+.jsec20 {
+    display: none;
+}
+
+.jsec21 {
+    display: none;
+}
+
+.jsec22 {
+    display: none;
+}
+
+.jsec23 {
+    display: none;
+}
+
+.jsec24 {
+    display: none;
+}
+
+.jsec25 {
+    display: none;
+}
+
+.jsec26 {
+    display: none;
+}
+
+.jsec27 {
+    display: none;
+}
+
+.jsec28 {
+    display: none;
+}
+
+.msec1 {
+    gap: 5px;
+    padding-bottom: 7vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+    /* border: 1px solid black; */
+    position: relative;
+    /* top: 15vh; */
+    /* bottom: 25vh; */
+
+}
+
+.xicon {
+    height: 7vh;
+    width: 3.5vw;
+    position: absolute;
+    top: -5vh;
+    right: 1vw;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+
+.mdiv {
+    background-color: #F2F2F2;
+    height: 40vh;
+    width: 21vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    padding-inline: 2vw;
+    /* border: 1px solid black; */
+
+}
+
+.mdiv3 {
+    background-color: #F2F2F2;
+    height: 40vh;
+    width: 25vw;
+}
+
+
+
+
+.carsfont22 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    /* padding-bottom: 1vh; */
+}
+
+.carsfont33 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #666666;
+    letter-spacing: 1px;
+    /* padding-bottom: 1vh; */
+}
+
+.carsfont44 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #262626;
+    /* padding-bottom: 1vh; */
+}
+
+
+.jslogo {
+    height: 3vh;
+    width: 3vw;
+
+
+}
+
+
+.newjslogo {
+    height: 3vh;
+    width: 3.5vw;
+
+}
+
+
+.Mjslogo2 {
+    height: 3vh;
+    width: 3.5vw;
+}
+
+.jsbtn {
+    height: 7vh;
+    width: 21vw;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.jsbtn:hover {
+    border: 2px solid black;
+}
+
+
+
+
+/* -----mdiv 2----- */
+
+
+.mdiv2 {
+    background-color: #F2F2F2;
+    height: 40vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+
+.childdiv2 {
+    /* border: 1px solid black; */
+    height: 25vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.jsbtn1 {
+    height: 7vh;
+    width: 21vw;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #1c69d4;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.jsbtn1:hover {
+    background-color: #0066b1;
+}
+
+
+.carpng {
+    height: 9vh;
+    width: 6vw;
+    position: relative;
+    bottom: 2vh;
+}
+
+.maincarpng {
+    position: absolute;
+    bottom: 17vh;
+
+}
+
+
+
+
+/* -----footer----- */
+
+.Fsec9 {
+    height: 50vh;
+    background-color: #e3dfdf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.box1 {
+    height: 40vh;
+    width: 30vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxicons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 5vh;
+}
+
+.icon1 {
+    border: 2px solid black;
+    border-radius: 3px;
+    color: #1c69d4;
+}
+
+.icon1:hover {
+    color: #000000;
+}
+
+.icon2 {
+    border: 2px solid black;
+    color: #000000;
+    border-radius: 3px;
+}
+
+.icon2:hover {
+    color: rgba(0, 0, 0, 0.461);
+}
+
+.icon3 {
+    border: 2px solid black;
+    color: red;
+    border-radius: 3px;
+}
+
+.icon3:hover {
+    color: #000000;
+}
+
+.icon4 {
+    border: 2px solid black;
+    color: #0653B6;
+    border-radius: 3px;
+}
+
+.icon4:hover {
+    color: #000000;
+}
+
+.icon5 {
+    border: 2px solid black;
+    color: #1DA1F2;
+    border-radius: 3px;
+}
+
+.icon5:hover {
+    color: #000000;
+}
+
+.h9 {
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    margin-bottom: 3vh;
+    text-transform: uppercase;
+	background-image: linear-gradient(234deg, #000000 0%, #00d0ff 29%, #000000 67%, #000000 100%);
+	background-size: 200%;
+	color: #fff;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: textclip 2s linear infinite;
+	display: inline-block;
+	
+}
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+
+.h99 {
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    color: #666666;
+    text-align: justify;
+}
+
+
+.box2 {
+    height: 40vh;
+    width: 32vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+}
+
+.box3 {
+    height: 40vh;
+    width: 25vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+
+}
+
+.boxh2 {
+    font-size: 22px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    margin-bottom: 3vh;
+    text-decoration: underline;
+    position: relative;
+    right: 7%;
+}
+
+.ulh2 {
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    margin-bottom: 1vh;
+}
+
+.hr99{
+    height: 1px;
+    width: 95vw;
+    background-color: #000000;
+     position: absolute;
+    bottom: 1vh;
+} 
+
+.hr999{
+    height: 10vh;
+    background-color: #e3dfdf;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
+
+
+
+        /* -----responsiv--- */
+
+.rsec1 {
+    height: 50vh;
+    background-color: #e3dfdf;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    display: none;
+    
+}
+
+.box11 {
+    height: 40vh;
+    width: 30vw;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxicons1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 5vh;
+    /* border: 1px solid black; */
+    font-size: 40px;
+}
+
+.icon11 {
+    border: 2px solid black;
+    border-radius: 3px;
+    color: #1c69d4;
+}
+
+.icon11:hover {
+    color: #000000;
+}
+
+.icon22 {
+    border: 2px solid black;
+    color: #000000;
+    border-radius: 3px;
+}
+
+.icon22:hover {
+    color: rgba(0, 0, 0, 0.461);
+}
+
+.icon33 {
+    border: 2px solid black;
+    color: red;
+    border-radius: 3px;
+}
+
+.icon33:hover {
+    color: #000000;
+}
+
+.icon44 {
+    border: 2px solid black;
+    color: #0653B6;
+    border-radius: 3px;
+}
+
+.icon44:hover {
+    color: #000000;
+}
+
+.icon55 {
+    border: 2px solid black;
+    color: #1DA1F2;
+    border-radius: 3px;
+}
+
+.icon55:hover {
+    color: #000000;
+}
+
+.rh99 {
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    margin-bottom: 3vh;
+    text-transform: uppercase;
+	background-image: linear-gradient(234deg, #000000 0%, #00d0ff 29%, #000000 67%, #000000 100%);
+	background-size: 200%;
+	color: #fff;
+	background-clip: text;
+	animation: textclip 2s linear infinite;
+	display: inline-block;
+	
+}
+@keyframes textclip {
+	to {
+		background-position: 200% center;
+	}
+}
+
+.rh999 {
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    color: #666666;
+    text-align: justify;
+}
+
+
+.box22 {
+    height: 40vh;
+    width: 32vw;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.boxh22 {
+    font-size: 22px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    margin-bottom: 3vh;
+    text-decoration: underline;
+   
+}
+
+.ulh22 {
+    font-size: 18px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    margin-bottom: 1vh;
+}
+
+.select{
+    height: 5vh;
+    width: 90vw;
+    background-color:#262626;
+    color: white;
+    border: none;
+    font-size: 13.8px;
+
+}
+
+.Rhr{
+    height: 1px;
+    width: 95vw;
+    background-color: #000000;
+    position: absolute;
+    bottom: 1vh;
+}
+
+.Rhr2{
+    
+    height: 10vh;
+    background-color: #e3dfdf;
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}

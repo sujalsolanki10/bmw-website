@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sec1 {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.mdiv {
+    background-color: #F2F2F2;
+    height: 40vh;
+    width: 21vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    padding-inline: 2vw;
+    /* border: 1px solid black; */
+
+}
+
+.mdiv3 {
+    background-color: #F2F2F2;
+    height: 40vh;
+    width: 25vw;
+}
+
+
+
+
+.carsfont22 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: black;
+    /* padding-bottom: 1vh; */
+}
+
+.carsfont33 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #666666;
+    letter-spacing: 1px;
+    /* padding-bottom: 1vh; */
+}
+
+.carsfont44 {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #262626;
+    /* padding-bottom: 1vh; */
+}
+
+
+.jslogo {
+    height: 3vh;
+    width: 3vw;
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+
+}
+
+.jsbtn {
+    height: 7vh;
+    width: 21vw;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.jsbtn:hover {
+    border: 2px solid black;
+}
+
+
+
+
+        /* -----mdiv 2----- */
+
+
+.mdiv2 {
+    background-color: #F2F2F2;
+    height: 40vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+}
+
+.childdiv2{
+    /* border: 1px solid black; */
+    height: 25vh;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.jsbtn1 {
+    height: 7vh;
+    width: 21vw;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #1c69d4;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.jsbtn1:hover {
+    background-color: #0066b1;
+}
+
+
+.carpng{
+    height: 9vh;
+    width: 6vw;
+    position: relative;
+    bottom: 2vh;
+}
+
+.maincarpng{
+    position: absolute;
+    bottom: 17vh;
+
+}
+
+
+        /* ------- mdiv3------- */
+
